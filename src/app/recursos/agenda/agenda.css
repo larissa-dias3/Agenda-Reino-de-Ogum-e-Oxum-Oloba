@@ -1,0 +1,121 @@
+:host {
+  display: block;
+  padding: 15px;
+}
+.namdhinggo-medium {
+  font-family: 'Namdhinggo', serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.tarefas {
+  display: flex;
+  font-weight: 500;
+  color: #332d24;
+  align-items: center;
+  gap: 15px;
+  padding: 10px;
+  border-radius: 15px;
+  border: 2px solid #0000001a;
+  background-color: #d3bb8b;
+  width: 100%;
+}
+.container-dias {
+  display: flex;
+  flex-direction: column;
+  width: 70px;
+  align-items: center;
+  background-color: #e9d7b4;
+  font-weight: 500;
+  color: #332d24;
+  padding: 15px;
+  border-radius: 15px;
+  border: 2px solid #0000001a;
+}
+
+.proximo {
+  background-color: rgb(12, 151, 24);
+  border-radius: 50%;
+  font-weight: bold;
+  color: white;
+}
+.dia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+}
+.destaqueSemana {
+  font-weight: 900;
+}
+details {
+  border: none;
+}
+details::details-content {
+  opacity: 0;
+  transition:
+    opacity 800ms,
+    content-visibility 600ms allow-discrete;
+}
+
+details[open]::details-content {
+  opacity: 1;
+}
+
+.details-container {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  font-family: 'Namdhinggo', serif;
+  font-size: 16px;
+  background-color: #fffffffa;
+  margin-top: 15px;
+}
+summary {
+  font-weight: bold;
+  font-size: 1.1em;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 15px;
+  background-color: #d8d6d3;
+  padding: 10px 10px;
+  font-family: 'Namdhinggo', serif;
+  box-shadow: 2px 2px 3px #81745b;
+}
+summary::-webkit-details-marker {
+  display: none;
+}
+
+summary::after {
+  font-size: 0.8em;
+  transition: transform 300ms ease-in-out;
+  font-family: 'Material Symbols Outlined';
+  content: 'arrow_drop_down';
+  font-size: 20px;
+  color: #2b2b2b;
+}
+details[open] summary::after {
+  transform: rotate(180deg);
+}
+.material-symbols-outlined {
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24;
+}
+.agenda-item {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  font-family: 'Playwrite AT', cursive;
+  font-size: 18px;
+  color: #524735;
+}

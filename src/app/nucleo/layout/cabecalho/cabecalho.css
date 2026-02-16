@@ -1,0 +1,25 @@
+:host {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #a58035;
+  gap: 20px;
+}
+img {
+  vertical-align: middle;
+  width: 100px;
+  border-radius: 35px;
+}
+h1 {
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  font-family: 'Playwrite AT', 'cursive';
+  font-size: 25px;
+}
+.playwrite-at {
+  font-family: 'Playwrite AT', 'cursive';
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}

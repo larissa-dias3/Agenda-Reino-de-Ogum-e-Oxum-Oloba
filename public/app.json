@@ -1,0 +1,79 @@
+[
+  {
+    "ano": 2026,
+    "meses": [
+      {
+        "nome": "Fevereiro",
+        "numero": 2,
+        "dias": [
+          {
+            "numero": "05",
+            "nome": "Quinta",
+            "tarefa": "Caboclo"
+          },
+          {
+            "numero": "12",
+            "nome": "Quinta",
+            "tarefa": "Preto Velho"
+          },
+          {
+            "numero": "18",
+            "nome": "Quarta",
+            "tarefa": "Limpeza pós carnaval"
+          },
+          {
+            "numero": "19",
+            "nome": "Quinta",
+            "tarefa": "Exu"
+          },
+          {
+            "numero": "26",
+            "nome": "Quinta",
+            "tarefa": "Pomba Gira"
+          }
+        ]
+      },
+      {
+        "nome": "Março",
+        "numero": 3,
+        "dias": [
+          {
+            "numero": "05",
+            "nome": "Quinta",
+            "tarefa": "Corte 7 Covas"
+          },
+          {
+            "numero": "06",
+            "nome": "Sexta",
+            "tarefa": "Imantação dos exus - 20h"
+          },
+          {
+            "numero": "07",
+            "nome": "Sábado",
+            "tarefa": "Corte exus - 20h"
+          },
+          {
+            "numero": "09",
+            "nome": "Segunda",
+            "tarefa": "Levantação e preparo elebó- 20h"
+          },
+          {
+            "numero": "10",
+            "nome": "Terça",
+            "tarefa": "Elebó de Exu - 20:30"
+          },
+          {
+            "numero": "19",
+            "nome": "Quinta",
+            "tarefa": "Preto Velho"
+          },
+          {
+            "numero": "26",
+            "nome": "Quinta",
+            "tarefa": "Exu/Pomba Gira"
+          }
+        ]
+      }
+    ]
+  }
+]
