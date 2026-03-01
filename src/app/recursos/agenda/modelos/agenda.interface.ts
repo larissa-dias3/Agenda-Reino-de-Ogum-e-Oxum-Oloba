@@ -5,12 +5,12 @@ export interface AgendaModel {
 
 export interface Mes {
     nome: string;
-    numero: number;
+    numero: string;
     dias: Dia[];
 }
 
 export interface Dia {
-    numero: number;
+    numero: string;
     nome: string;
     tarefa: string;
 }

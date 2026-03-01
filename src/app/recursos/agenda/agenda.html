@@ -5,19 +5,26 @@
       <details>
         <summary>{{ mes.nome }}</summary>
         @for (dia of mes.dias; track $index) {
-            <div class="details-container">
-              <div class="container-dias">
-                <div class="semana" [class.destaqueSemana]="dia.numero === proximoEvento() && mes.numero === mesNumero()">{{ dia.nome }}</div>
-                <div
-                  class="dia"
-                  [class.proximo]="dia.numero === proximoEvento() && mes.numero === mesNumero()"
-                >
-                  {{ dia.numero }}
-                </div>
+          <div class="details-container">
+            <div class="container-dias">
+              <div
+                class="semana"
+                [class.destaqueSemana]="
+                  (dia.numero | stringToNumber) === proximoEvento() && (mes.numero | stringToNumber) === mesNumero()
+                "
+              >
+                {{ dia.nome }}
               </div>
-              <div class="tarefas">{{ dia.tarefa }}</div>
+              <div
+                class="dia"
+                [class.proximo]="(dia.numero | stringToNumber) === proximoEvento() && (mes.numero | stringToNumber) === mesNumero()"
+              >
+                {{ dia.numero }}
+              </div>
             </div>
-          }
+            <div class="tarefas">{{ dia.tarefa }}</div>
+          </div>
+        }
       </details>
     }
   </div>
